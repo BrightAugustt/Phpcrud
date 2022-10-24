@@ -10,7 +10,7 @@
 </head>
 <body>
 
-   <a href="add_new.php"> Add New</a>
+   <a href="add.php"> Add New</a>
    <table>
    <thread>
     <tr>
