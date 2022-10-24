@@ -1,5 +1,5 @@
-<?php
-$connection = mysqli_connect("us-cdbr-east-06.cleardb.net","b9e2f55baf0395","e3e1ccc3","heroku_28ad1c02dc3433c");
+ <?php
+$connection = mysqli_connect("localhost","root","","class_contact_mgt");
 
 
 // Check connection
@@ -8,4 +8,5 @@ if ($connection->connect_error) {
     echo "Unsuccessful connnection";
   }
 
+    
 ?> 
