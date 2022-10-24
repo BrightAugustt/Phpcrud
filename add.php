@@ -46,7 +46,7 @@ if(isset($_POST['submit'])){
     $result = mysqli_query($connection, $sql);
 
     if($result){
-        header("Location: index.php?msg=New record created successfully");
+        header("Location: ../index.php");
     }
     else{
         echo "Failed: ". mysqli_error($connection);
